@@ -121,6 +121,29 @@ body {
 .hamburger.active span:nth-child(3) {
     transform: rotate(-45deg) translate(7px, -6px);
 }
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
 
 /* Spotlight Section */
 .spotlight {
@@ -385,6 +408,29 @@ body {
     height: 3px;
     background: linear-gradient(90deg, #)
 }
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .spotlight-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .spotlight-title {
+        font-size: 2rem;
+    }
+
+    .spotlight-description {
+        font-size: 1rem;
+    }
+
+    .stat-divider {
+        display: none;
+    }
+
+    .spotlight-visual {
+        margin-top: 2rem;
+    }
+}
 
 
 
@@ -465,35 +511,6 @@ body {
   }
   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Our Promise Section */
 .promise {
     background-color: #f0f9ff;
@@ -566,8 +583,6 @@ body {
   }
   
 
-
-
 /* Container Setup */
 .why-choose-us-section {
     background-color: #f0f9ff;
@@ -629,34 +644,6 @@ body {
     color: #475569;
   }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Products Section */
 .products {
@@ -782,26 +769,6 @@ body {
     }
   }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Founder Section */
 .founder {
@@ -932,16 +899,6 @@ body {
   
 
   
-  
-
-
-
-
-
-
-
-
-
 /* Contact Section */
 .contact {
     background-color: #ffffff;
@@ -1071,29 +1028,6 @@ body {
     }
   }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Footer Styles */
 .footer {
